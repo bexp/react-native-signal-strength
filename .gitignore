@@ -20,15 +20,3 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-*.iml
-.idea/
-.gradle/
-bin/
-gen/
-out/
-local.properties
-
-*.apk
-*.ap_
-*.dex
-*.class
