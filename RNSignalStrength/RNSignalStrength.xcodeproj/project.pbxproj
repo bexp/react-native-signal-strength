@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5A84EE451DBD377B007F822B /* RNSignalStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A84EE441DBD377B007F822B /* RNSignalStrength.m */; };
 		5A84EE461DBD377B007F822B /* RNSignalStrength.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5A84EE431DBD377B007F822B /* RNSignalStrength.h */; };
+		5A84EECB1DC5C8F3007F822B /* PZSpeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A84EECA1DC5C8F3007F822B /* PZSpeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		5A84EE401DBD377B007F822B /* libRNSignalStrength.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSignalStrength.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A84EE431DBD377B007F822B /* RNSignalStrength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNSignalStrength.h; sourceTree = "<group>"; };
 		5A84EE441DBD377B007F822B /* RNSignalStrength.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSignalStrength.m; sourceTree = "<group>"; };
+		5A84EECA1DC5C8F3007F822B /* PZSpeed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PZSpeed.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A84EECB1DC5C8F3007F822B /* PZSpeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		5A84EE371DBD377B007F822B = {
 			isa = PBXGroup;
 			children = (
+				5A84EECA1DC5C8F3007F822B /* PZSpeed.framework */,
 				5A84EE421DBD377B007F822B /* RNSignalStrength */,
 				5A84EE411DBD377B007F822B /* Products */,
 			);
@@ -220,6 +224,10 @@
 		5A84EE4A1DBD377B007F822B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../react-native/React/**",
@@ -235,6 +243,10 @@
 		5A84EE4B1DBD377B007F822B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../react-native/React/**",

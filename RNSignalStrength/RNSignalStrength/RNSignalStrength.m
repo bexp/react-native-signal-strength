@@ -8,6 +8,7 @@
 
 #import "RCTBridge.h"
 #import "RNSignalStrength.h"
+#import <PZSpeed/PZSpeed.h>
 
 @implementation RNSignalStrength
 
@@ -17,7 +18,8 @@ RCT_EXPORT_MODULE()
 
 - (id) init {
     self = [super init];
-    NSLog(@"RNSignalStrength");
+    NSLog(@"RNSignalStrength init");
+    [PZSpeedController controllerWithAppID: @"dca51e6ecd4fd71df12a26c8f5014ce6" apiKey: @"69fe84992a5242317d7235ce16c1b845090ec2d8"];
     
     return self;
 }
