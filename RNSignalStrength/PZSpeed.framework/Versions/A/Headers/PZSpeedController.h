@@ -57,7 +57,7 @@ extern NSString const * PZSpeedControllerProxyIPAddress;
 
 /*!
  * Starts or stops using PZSpeed for making url requests. 
- * @param shouldUsePZ BOOL value specifying if PZSpeed should be used or not. By Default, PZSpeed is used.
+ * @param a BOOL value specifying if PZSpeed should be used or not. By Default, PZSpeed is used.
  */
 - (void) usePZ:(BOOL)shouldUsePZ;
 
