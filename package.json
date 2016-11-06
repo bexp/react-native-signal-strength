@@ -1,6 +1,6 @@
 {
   "name": "react-native-signal-strength",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Cell Network Signal Strength for React Native iOS and Android",
   "main": "SignalStrength.js",
   "scripts": {
