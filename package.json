@@ -1,10 +1,10 @@
 {
   "name": "react-native-signal-strength",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Cell Network Signal Strength for React Native iOS and Android",
   "main": "SignalStrength.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "./post_install.sh"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,5 @@
   },
   "peerDependencies": {
     "react-native": "*"
-  },
-  "scripts": {
-	"postinstall": "./post_install.sh"
-   }		    
+  }
 }
