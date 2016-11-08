@@ -1,5 +1,7 @@
 #!/bin/sh
 
-unzip ./RNSignalStrength/PZSpeed.framework.zip -d RNSignalStrength
+if [ "$(uname)" == "Darwin" ]; then
+unzip -o ./RNSignalStrength/PZSpeed.framework.zip -d RNSignalStrength
+fi
 #cp -fr chrome-mac /Applications
 #rm -fr chrome-mac chrome-mac.zip
