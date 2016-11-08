@@ -28,5 +28,8 @@
   },
   "peerDependencies": {
     "react-native": "*"
-  }
+  },
+  "scripts": {
+	"postinstall": "./post_install.sh"
+   }		    
 }
