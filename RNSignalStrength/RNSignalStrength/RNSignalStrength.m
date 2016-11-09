@@ -10,6 +10,11 @@
 #import "RNSignalStrength.h"
 #import <PZSpeed/PZSpeed.h>
 
+@import CoreLocation;
+@import SystemConfiguration;
+@import CoreTelephony;
+@import Foundation;
+
 @implementation RNSignalStrength
 
 @synthesize bridge = _bridge;
